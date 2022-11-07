@@ -1,0 +1,44 @@
+html {
+  font-family: outfit;
+  font-size: 15px;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+.content {
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px hsl(220, 15%, 55%);
+}
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+.header {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 10px;
+  color: hsl(218, 44%, 22%);
+}
+.text {
+  font-weight: 400;
+  text-align: center;
+  margin: 0 10px;
+  color: hsl(220, 15%, 55%);
+}
